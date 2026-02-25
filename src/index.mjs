@@ -1,5 +1,10 @@
-import './styles.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
+import "./styles.css";
 
-document.getElementById('btn')?.addEventListener('click', () => {
-  console.log('It works 🎉');
-});
+const btn = document.getElementById("btn");
+if (btn) {
+  btn.addEventListener("click", () => {
+    console.log("Bootstrap is working 🎉");
+  });
+}
