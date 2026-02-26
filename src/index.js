@@ -9,7 +9,7 @@ btn?.addEventListener("click", () => {
     (() => {
       const p = document.createElement("p");
       p.id = "webpack-msg";
-      p.textContent = "Webpack is working!";
+      p.textContent = "Give me your car keys :)";
       document.body.appendChild(p);
       return p;
     })();
