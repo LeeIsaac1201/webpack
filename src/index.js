@@ -13,5 +13,5 @@ btn?.addEventListener("click", () => {
       document.body.appendChild(p);
       return p;
     })();
-  msg.textContent = "Webpack is working!";
+  msg.textContent = "Give me your car keys :)";
 });
